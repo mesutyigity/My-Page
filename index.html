@@ -5,55 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>MESUT YIGIT YILDIRIM</h1>
-    <h2>WELCOME ON BOARD</h2>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
-    </nav>
-    <h3>About</h3>
-    <p>
-      Hi there 👋 Mesut Yigit Yildirim here! I'm a Frontend Developper. I love
-      coding...
-    </p>
-    <h3>Projects</h3>
-    <img
-      src="https://cdn.pixabay.com/photo/2016/09/06/13/37/maserati-gran-turismo-1649119_960_720.jpg"
-      alt=""
-    />
-    <img
-      src="https://cdn.pixabay.com/photo/2016/11/23/17/54/audi-1854056_960_720.jpg"
-      alt=""
-    />
-    <img
-      src="https://cdn.pixabay.com/photo/2017/11/09/01/49/ferrari-458-spider-2932191_960_720.jpg"
-      alt=""
-    />
-    <img
-      src="https://cdn.pixabay.com/photo/2018/03/04/00/09/vehicle-3196981_960_720.jpg"
-      alt=""
-    />
-    <img
-      src="https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_960_720.jpg"
-      alt=""
-    />
-    <h3>Contact</h3>
-    <nav>
-      <a href="">Github</a>
-      <a href="">LinkedIn</a>
-      <a href="">Instagram</a>
-      <a href="">Twitter</a>
-    </nav>
-    <h4>Send Message</h4>
-    <form action="">
-      <input type="text" name="name" id="name" placeholder="Username" />
-      <input type="text" name="email" id="email" placeholder="Email" />
-      <input type="text" name="message" id="message" placeholder="Message" />
-      <button type="submit" id="send">Send</button>
-    </form>
+    <header>
+      <h1 id="head">MESUT YIGIT YILDIRIM</h1>
+      <h2 id="head" style="margin-bottom: 40px">WELCOME ON BOARD</h2>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h3>About</h3>
+        <p>
+          Hello there! 👋 Mesut Yigit Yildirim here! I'm a Frontend Developper.
+          I love coding and learning. Glad you're here, have fun!
+        </p>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <img
+          src="https://cdn.pixabay.com/photo/2016/09/06/13/37/maserati-gran-turismo-1649119_960_720.jpg"
+          alt=""
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2016/11/23/17/54/audi-1854056_960_720.jpg"
+          alt=""
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2017/11/09/01/49/ferrari-458-spider-2932191_960_720.jpg"
+          alt=""
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2018/03/04/00/09/vehicle-3196981_960_720.jpg"
+          alt=""
+        />
+        <img
+          src="https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_960_720.jpg"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer id="contact">
+      <h3>Contact</h3>
+      <nav>
+        <a href="https://github.com/mesutyigity">Github</a>
+        <a href="https://www.linkedin.com/in/mesut-yiğit-yıldırım-219a0b269/"
+          >LinkedIn</a
+        >
+        <a id="insta" href="#contact">Instagram</a>
+        <a href="#contact">Twitter</a>
+      </nav>
+      <h4>Send Message</h4>
+      <form action="">
+        <input type="text" name="name" id="name" placeholder="Username" />
+        <input type="text" name="email" id="email" placeholder="Email" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button type="submit" id="send">Send</button>
+      </form>
+    </footer>
   </body>
 </html>
